@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+form#form1 ul { /*リスト要素ulを初期化*/
+    padding:0;
+    margin:0
+}
+form#form1 ul li { /*liも初期化し、ボーダーなどを指定*/
+    list-style:none;
+    margin:0px;
+    padding:5px;
+    border-top: 2px solid #FFF;
+}
+
+/* span要素をブロック化しフロートでフォーム部品と横に並べる*/
+form#form1 ul li span {
+    float:left;
+}
+
+
+
+textarea {
+    width: 174px;
+}
